@@ -113,7 +113,10 @@ function App() {
         <div className="app">
           <div className="main">
             {stop ? (
-              <h1 className="endText">You earned: {earned}</h1>
+              <div className="endText">
+                <h1 >You earned: {earned}</h1>
+                <button className="playAgain" onClick={() => window.location.reload()}>Play Again?</button>
+              </div>
             ) : (
               <>
                 <div className="top">
