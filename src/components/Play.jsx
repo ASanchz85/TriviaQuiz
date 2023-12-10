@@ -20,7 +20,7 @@ const Play = ({ setIsPlaying }) => {
       <img
         src={playButton}
         style={{ height: "80px", width: "80px" }}
-        alt="play button"
+        alt="play-button"
       />
     </div>
   );
